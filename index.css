@@ -1,0 +1,155 @@
+.top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 3px;
+  background-color: #3b5998;
+  height: 100px;
+}
+a {
+  font-family: sans-serif;
+  color: #dfe3ee;
+  text-decoration: none;
+  position: absolute;
+  left: 1200px;
+  top: 70px;
+}
+a:hover {
+  text-decoration: underline;
+}
+span {
+  letter-spacing: 1px;
+}
+.heading_1 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 200px;
+  font-family: sans-serif;
+}
+.password {
+  position: absolute;
+  left: 1200px;
+  top: 15px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.email {
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#login {
+  border: solid #4c6db3;
+  color: white;
+  background-color: #4c6db3;
+  position: absolute;
+  left: 1400px;
+  top: 33px;
+  height: 30px;
+  width: 50px;
+  font-family: sans-serif;
+}
+#login:hover {
+  background-color: #3b5998;
+  border: 1px solid black;
+}
+.input {
+  width: 180px;
+  height: 20px;
+  font-size: 20px;
+}
+.middle {
+  color: black;
+  position: relative;
+  top: 66px;
+  background-color: #dfe3ee;
+  height: 800px;
+}
+.foremail input {
+  width: 370px;
+  font-size: 20px;
+}
+.foremail input:focus,
+.input_in_span input:focus {
+  background-color: #c3d6ff;
+}
+.input_in_span input {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.heading_para {
+  font-size:20px;
+  color:rgb(83, 83, 83);
+  position:absolute;
+  left:195px;
+  top:70px
+}
+
+.foremail input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.syntex {
+  position: relative;
+  left: 990px;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(66, 65, 65)
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  background-color: white;
+}
+h3 {
+  font-family: sans-serif;
+  color: rgb(83, 83, 83);
+}
+#selection_1,
+#selection_2,
+#selection_3 {
+  color: rgb(83, 83, 83);
+  font-size: 18px;
+  height: 30px;
+  width: 70px;
+}
+.button_2 {
+  width: 250px;
+  height: 45px;
+  font-size: 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(32, 214, 32),
+    rgb(37, 172, 37)
+  );
+  border: 1px solid grey;
+  border-radius: 6px;
+  color: white;
+}
+.button_2:hover {
+  transform:scale(1,1.25);
+  background-image: linear-gradient(to top, rgb(133, 240, 133), rgb(7, 163, 7));
+}
+
+.radio {
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+.main_heading{
+  color:black;
+  position: absolute;
+  left:195px
+}
